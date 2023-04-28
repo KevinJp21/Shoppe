@@ -97,3 +97,62 @@ a.right{
     color: #A18A68;
 }
 
+.row{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 3rem;
+}
+
+.item{
+    margin-right: 4rem;
+    width: 38%;
+}
+
+.item img{
+   width: 100%;
+   height: auto;
+}
+
+.item:last-child{
+    margin-right: 0rem;
+}
+
+.price{
+    color: #A18A68;
+}
+
+/*Footer Style*/
+
+footer{
+ display: flex;
+ flex-direction: row;
+ padding-top: 2rem;   
+}
+
+.footer-link a{
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 2rem; 
+}
+
+.newsletter-container input, button{
+    border:none;
+    background-color: white;
+
+}
+
+.newsletter-container input[type="text"]{
+    width: 300px;
+    height: 2rem;
+}
+
+.newsletter-container{
+    border-bottom: 1px solid black;
+    margin-left: auto;
+    width: 28%;
+}
+
+.newsletter-container button[type="submit"]{
+    
+}
+
