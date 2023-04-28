@@ -3,7 +3,7 @@
     font-family: 'Allerta Stencil', sans-serif;
     src: url(fonts/AllertaStencil-Regular.ttf) format('truetype');
 }
-
+/*General styles*/
 body{
 padding: 5rem;
 }
@@ -12,11 +12,16 @@ header{
     flex-direction: row;
 }
 
+
 a{
     color: black;
     text-decoration: none;
 }
+a:hover{
+    text-decoration: underline;
+}
 
+/*Header styles*/
 .navigation{
     font-family: Arial, Helvetica, sans-serif;
     width: 35%;
@@ -69,3 +74,26 @@ a{
 .logo .first-letter{
     color: #A18A68;
 }
+
+/* Main body styles */
+
+.hero-container{
+    padding-top: 1rem;
+    
+}
+
+.hero-container img{
+    border-radius: 1rem;  
+}
+
+p,h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+a.right{
+    font-size: 1rem;
+    float: right; /*Pasa directamente el elemento a la derecha*/
+    color: #A18A68;
+}
+
