@@ -1,0 +1,33 @@
+body{
+padding: 5rem;
+}
+header{
+    display: flex;
+    flex-direction: row;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.navigation{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 35%;
+    margin-left: auto;
+}
+.icon-container .search{
+  height: 13px;
+  width: 14px;
+}
+
+.icon-container .shop{
+  height: 15px;
+  width: 15px;
+}
+
+
+.icon-container .user{
+    height: 18px;
+    width: 18px;
+  }
